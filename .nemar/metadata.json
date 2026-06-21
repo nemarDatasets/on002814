@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A Multimodal Neuroimaging Dataset to Study Spatiotemporal Dynamics of Visual Processing in Humans",
+  "description": "A multimodal neuroimaging dataset designed to investigate the spatiotemporal dynamics of visual processing in human subjects. This dataset integrates simultaneous EEG and functional MRI (fMRI) recordings along with structural MRI to characterize neural mechanisms underlying visual perception and cognition. Participants performed visual perception tasks during concurrent EEG and fMRI acquisition. Structural MRI scans were obtained for anatomical reference and co-registration. The dataset comprises 52.1 GB of data across 44,896 files in BIDS format, providing a rich resource for studying the temporal and spatial aspects of visual processing in the human brain.",
+  "methods_description": "Participants performed visual perception tasks during simultaneous EEG and fMRI acquisition. Structural MRI scans were obtained for anatomical reference and co-registration. EEG was recorded using a standard cap with electrodes positioned according to the 10-20 system. fMRI data were acquired using a 3T scanner with standard echo-planar imaging sequences. Visual stimuli were presented on a screen visible to participants in the scanner. Data were preprocessed according to standard neuroimaging protocols and are provided in BIDS format. For detailed acquisition parameters, preprocessing procedures, and participant demographics, please refer to the dataset documentation or contact the corresponding authors.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,33 @@
     "Morteza Mahdiani": {},
     "Seyed-Mahdi Khaligh-Razavi": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002814.v1.3.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "visual processing"
     },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "spatiotemporal dynamics"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "brain imaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002814",
       "identifier_type": "URL",
@@ -24,6 +47,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002814",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002814.v1.3.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -35,16 +63,19 @@
     },
     {
       "funder_name": "GRANT #2"
+    },
+    {
+      "funder_name": "Funding information not available"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg",
     "anat",
     "func"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "52.1 GB (44896 files)"
   ],
   "formats": [
     ".5_measurment_237/1000",
@@ -2387,32 +2418,8 @@
     ".md",
     ".py",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A multimodal neuroimaging dataset designed to investigate the spatiotemporal dynamics of visual processing in humans. The dataset combines EEG, structural MRI (anat), and functional MRI (func) modalities to characterize neural responses during visual tasks. Participants performed visual perception tasks while simultaneous EEG and fMRI recordings were acquired, with structural MRI scans obtained for anatomical reference. This resource enables investigation of the temporal and spatial organization of visual cortical processing across multiple neuroimaging modalities. This dataset is version 1.3.0 of OpenNeuro dataset ds002814.",
-  "keywords": [
-    {
-      "term": "visual processing"
-    },
-    {
-      "term": "spatiotemporal dynamics"
-    },
-    {
-      "term": "visual cortex"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "structural MRI"
-    }
-  ],
-  "methods_description": "Participants performed visual perception tasks during simultaneous EEG and fMRI acquisition. Structural MRI scans were obtained for anatomical reference and co-registration. EEG was recorded using a standard cap with electrodes positioned according to the 10-20 system. fMRI data were acquired using a 3T scanner with standard echo-planar imaging sequences. Visual stimuli were presented on a screen visible to participants in the scanner. Data were preprocessed according to standard neuroimaging protocols and are provided in BIDS format.",
-  "source_hash": "3c5054cb27e5c9bec83f863e44bd80c195f369334758c3660850ee4a73ea98c6"
+  "source_hash": "bfa54207fe7fa2f8133d69435865f2f340601ec7b4a04fca5d182d33fa6372b2"
 }

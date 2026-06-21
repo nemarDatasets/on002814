@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "A Multimodal Neuroimaging Dataset to Study Spatiotemporal Dynamics of Visual Processing in Humans",
-  "description": "A multimodal neuroimaging dataset designed to investigate the spatiotemporal dynamics of visual processing in human subjects. This dataset integrates simultaneous EEG and functional MRI (fMRI) recordings along with structural MRI to characterize neural mechanisms underlying visual perception and cognition. Participants performed visual perception tasks during concurrent EEG and fMRI acquisition. Structural MRI scans were obtained for anatomical reference and co-registration. The dataset comprises 52.1 GB of data across 44,896 files in BIDS format, providing a rich resource for studying the temporal and spatial aspects of visual processing in the human brain.",
+  "description": "A multimodal neuroimaging dataset designed to investigate the spatiotemporal dynamics of visual processing in humans. The dataset combines multiple neuroimaging modalities—electroencephalography (EEG), functional magnetic resonance imaging (fMRI), and structural MRI—to characterize neural responses during visual tasks. This comprehensive resource provides simultaneous EEG-fMRI recordings that enable investigation of the temporal and spatial organization of visual cortical processing, bridging the high temporal resolution of EEG with the high spatial resolution of fMRI.",
   "methods_description": "Participants performed visual perception tasks during simultaneous EEG and fMRI acquisition. Structural MRI scans were obtained for anatomical reference and co-registration. EEG was recorded using a standard cap with electrodes positioned according to the 10-20 system. fMRI data were acquired using a 3T scanner with standard echo-planar imaging sequences. Visual stimuli were presented on a screen visible to participants in the scanner. Data were preprocessed according to standard neuroimaging protocols and are provided in BIDS format. For detailed acquisition parameters, preprocessing procedures, and participant demographics, please refer to the dataset documentation or contact the corresponding authors.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -16,25 +16,25 @@
       "term": "visual processing"
     },
     {
-      "term": "EEG"
+      "term": "electroencephalography"
     },
     {
-      "term": "fMRI"
+      "term": "magnetic resonance imaging"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "multimodal imaging"
     },
     {
       "term": "spatiotemporal dynamics"
     },
     {
-      "term": "visual perception"
+      "term": "visual cortex"
+    },
+    {
+      "term": "human brain"
     },
     {
       "term": "simultaneous EEG-fMRI"
-    },
-    {
-      "term": "brain imaging"
     }
   ],
   "related_identifiers": [
@@ -52,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds002814.v1.3.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002814",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -63,9 +68,6 @@
     },
     {
       "funder_name": "GRANT #2"
-    },
-    {
-      "funder_name": "Funding information not available"
     }
   ],
   "resource_type_specific": "EEG Dataset",

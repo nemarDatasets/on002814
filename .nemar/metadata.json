@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002814",
+  "source": "openneuro",
+  "source_id": "ds002814",
+  "title": "A Multimodal Neuroimaging Dataset to Study Spatiotemporal Dynamics of Visual Processing in Humans",
+  "authors": {
+    "Fatemeh Ebrahiminia": {},
+    "Morteza Mahdiani": {},
+    "Seyed-Mahdi Khaligh-Razavi": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002814.v1.3.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.1",
+  "recording_modality": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg",
+    "func"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "TODO"
+    },
+    {
+      "funder_name": "GRANT #1"
+    },
+    {
+      "funder_name": "GRANT #2"
+    }
+  ],
+  "acknowledgements": "Please note that the article is currently under review. For further information, please contact the corresponding authors \nSeyed-Mahdi Khaligh-Razavi (seyed@cognetivity.com)\nFatemeh Ebrahiminia (ebrahiminia.fatemeh@gmail.com)"
+}
